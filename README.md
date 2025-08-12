@@ -1,2 +1,2 @@
 # SPI-slave-with-single-port-RAM
-SPI Slave with Asynchronous Single-Port RAM in Verilog — Implements an SPI slave interface connected to an asynchronous single-port RAM, verified in QuestaSim and synthesized in Vivado for FPGA deployment.
+This project implements an SPI slave in Verilog connected to an asynchronous single-port RAM, enabling external devices to read and write data over SPI. The design was simulated in QuestaSim to verify correct timing and protocol behavior, then taken through the FPGA implementation flow in Vivado. The code directly models an asynchronous RAM for low-latency memory access within the SPI interface.
